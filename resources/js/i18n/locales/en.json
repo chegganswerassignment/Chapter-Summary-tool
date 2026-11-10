@@ -1,0 +1,283 @@
+{
+  "app": {
+    "name": "Chapter Summary Tool"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "documents": "My Chapters",
+    "aiRouting": "AI Routing",
+    "profile": "Profile",
+    "logout": "Log Out"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "english": "English",
+    "arabic": "Arabic",
+    "toggle": "Language"
+  },
+  "documents": {
+    "title": "My Chapters",
+    "subtitle": "Upload a chapter and let AI summarize, translate, and quiz you on it.",
+    "upload": "Upload a Chapter",
+    "uploadHint": "PDF or DOCX, up to {{maxMb}} MB",
+    "dropHere": "Drop your chapter here",
+    "dropHereHint": "or click to browse — PDF and DOCX only",
+    "chooseFile": "Choose File",
+    "uploadButton": "Upload & Process",
+    "uploading": "Uploading...",
+    "empty": "You haven't uploaded any chapters yet.",
+    "emptyHint": "Upload your first PDF or DOCX chapter above to get started.",
+    "recent": "Recent Chapters",
+    "stats": {
+      "total": "Total Chapters",
+      "completed": "Completed",
+      "processing": "In Progress"
+    },
+    "table": {
+      "name": "File",
+      "status": "Status",
+      "size": "Size",
+      "uploaded": "Uploaded",
+      "actions": "Actions"
+    },
+    "status": {
+      "uploaded": "Uploaded",
+      "extracting": "Extracting text",
+      "queued": "Queued",
+      "processing": "Processing",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "view": "View",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this chapter and all its results?",
+    "errors": {
+      "fileRequired": "Please choose a file to upload.",
+      "fileType": "Only PDF and DOCX files are supported.",
+      "fileSize": "The file is larger than the {{maxMb}} MB limit."
+    }
+  },
+  "document": {
+    "backToList": "Back to My Chapters",
+    "failed": "Processing failed",
+    "tabs": {
+      "summary": "Summary",
+      "translation": "Translation",
+      "quiz": "Quiz",
+      "pronunciation": "Pronunciation"
+    },
+    "pending": "Waiting to be processed...",
+    "processing": "Generating with AI...",
+    "failedResult": "This task failed",
+    "wordReduction": "{{original}} words → {{summarized}} words",
+    "quiz": {
+      "question": "Question {{number}} of {{total}}",
+      "submit": "Submit Answers",
+      "score": "You scored {{score}} out of {{total}}",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "explanation": "Explanation",
+      "retry": "Retry Quiz"
+    },
+    "pronunciation": {
+      "instructions": "Click a term to hear its pronunciation.",
+      "play": "Play",
+      "noVoice": "Speech synthesis is not supported in this browser.",
+      "extractedTermsHint": "Terms are automatically extracted from the summary."
+    },
+    "export": {
+      "pdf": "Export PDF",
+      "all": "Export All",
+      "notReady": "Available once this result has completed"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Log in",
+      "subtitle": "Welcome back. Enter your details to continue.",
+      "email": "Email",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot your password?",
+      "submit": "Log in",
+      "noAccount": "Don't have an account?",
+      "register": "Sign up"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start summarizing chapters with AI in under a minute.",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "login": "Log in"
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "No problem. Enter your email and we'll send you a password reset link.",
+      "email": "Email",
+      "submit": "Email password reset link"
+    },
+    "resetPassword": {
+      "title": "Reset your password",
+      "subtitle": "Choose a new password for your account.",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Reset Password"
+    },
+    "confirmPassword": {
+      "title": "Confirm your password",
+      "subtitle": "This is a secure area. Please confirm your password before continuing.",
+      "password": "Password",
+      "submit": "Confirm"
+    },
+    "verifyEmail": {
+      "title": "Verify your email",
+      "subtitle": "Thanks for signing up! Before getting started, please verify your email address by clicking the link we just sent you. If you didn't receive the email, we'll gladly send you another.",
+      "resendSuccess": "A new verification link has been sent to the email address you provided during registration.",
+      "resendButton": "Resend verification email",
+      "logout": "Log out"
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "login": "Log in",
+      "register": "Get Started"
+    },
+    "hero": {
+      "eyebrow": "Powered by Artificial Intelligence",
+      "titlePrefix": "Your",
+      "titleHighlight": "Smart Digital Assistant",
+      "titleSuffix": "for University Success",
+      "subtitle": "Upload a chapter and let a neural AI engine generate an instant knowledge summary, an academic translation, a self-assessment quiz, and voice pronunciation for key terms — your personal academic assistant, available anytime.",
+      "cta": "Meet your AI assistant",
+      "ctaSecondary": "See how it works",
+      "botGreeting": "Hi! I'm ready to help you study.",
+      "mockup": {
+        "chapterLabel": "Chapter 5",
+        "reduction": "~2,400 words → 380 words",
+        "dropTitle": "Drop your chapter here",
+        "dropHint": "or click to browse — PDF and DOCX only",
+        "upload": "Upload file"
+      }
+    },
+    "trust": {
+      "summaries": "Summaries generated",
+      "languages": "Languages supported",
+      "formats": "File formats"
+    },
+    "features": {
+      "eyebrow": "Your AI academic toolkit",
+      "title": "One digital assistant, four intelligent capabilities",
+      "subtitle": "Every chapter you upload is processed by a neural AI pipeline and streamed back to you live — no refreshing, no waiting around.",
+      "items": {
+        "summary": {
+          "title": "AI-Powered Summarization Engine",
+          "description": "Long, dense chapters condensed by a neural engine into clear, well-structured knowledge summaries that keep the key definitions and arguments intact."
+        },
+        "translation": {
+          "title": "Neural Academic Translation",
+          "description": "AI-driven Arabic translations that preserve scientific terminology and the original structure of the text."
+        },
+        "quiz": {
+          "title": "Smart Self-Assessment Quizzes",
+          "description": "Multiple-choice questions generated by AI straight from your chapter, with instant scoring and explanations."
+        },
+        "pronunciation": {
+          "title": "Automated Voice Pronunciation",
+          "description": "Hear key academic terms spoken aloud using your browser's built-in text-to-speech, right from the summary."
+        },
+        "realtime": {
+          "title": "Live AI Processing Pipeline",
+          "description": "Background AI jobs stream results to your screen the moment they're ready via WebSockets — no polling."
+        },
+        "routing": {
+          "title": "Adaptive AI Model Routing",
+          "description": "Administrators can route each task to a different AI provider and model without touching a line of code."
+        }
+      }
+    },
+    "steps": {
+      "eyebrow": "Simple by design",
+      "title": "From upload to study session in three steps",
+      "items": {
+        "upload": {
+          "title": "Upload your chapter",
+          "description": "Drag and drop a PDF or DOCX file, or pick one from your device."
+        },
+        "process": {
+          "title": "AI processes it in the background",
+          "description": "Summarization, translation, and quiz generation run as background jobs so you're never stuck waiting."
+        },
+        "study": {
+          "title": "Study with live results",
+          "description": "Switch between Summary, Translation, Quiz, and Pronunciation tabs as results stream in in real time."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to study smarter?",
+      "subtitle": "Create a free account and upload your first chapter in under a minute.",
+      "button": "Create your account"
+    },
+    "footer": {
+      "tagline": "An AI-powered study companion for university students.",
+      "rights": "All rights reserved."
+    }
+  },
+  "admin": {
+    "aiRouting": {
+      "title": "AI Models & Providers",
+      "providers": "Providers",
+      "addProvider": "Add Provider",
+      "name": "Name",
+      "slug": "Slug",
+      "baseUrl": "Base URL",
+      "apiKey": "API Key",
+      "apiKeyPlaceholder": "Leave blank to keep current key",
+      "active": "Active",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "models": "Models",
+      "addModel": "Add Model",
+      "displayName": "Display Name",
+      "modelCode": "Model Code",
+      "contextWindow": "Context Window",
+      "hasApiKey": "Key configured",
+      "noApiKey": "No key configured",
+      "subtitle": "Pick the one model used for every task, and manage provider API keys.",
+      "editProvider": "Edit Provider",
+      "editModel": "Edit Model",
+      "edit": "Edit",
+      "stats": {
+        "totalProviders": "Providers",
+        "activeProviders": "Active Providers",
+        "totalModels": "Configured Models"
+      },
+      "emptyProviders": "No providers yet. Add one to start routing AI tasks.",
+      "emptyModels": "No models configured for this provider yet.",
+      "deleteProviderConfirm": "Delete provider \"{{name}}\" and all of its models?",
+      "deleteModelConfirm": "Delete model \"{{name}}\"?",
+      "activeModel": {
+        "title": "Active model",
+        "description": "This single model handles summaries, translations, and quizzes.",
+        "select": "Select the active model",
+        "inactiveProvider": "provider inactive",
+        "none": "No active model is set. Document processing will fail until one is selected.",
+        "noKey": "This model's provider has no API key configured.",
+        "badge": "Active",
+        "deleteBlocked": "The active model cannot be deleted"
+      }
+    }
+  }
+}

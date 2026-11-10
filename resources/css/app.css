@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-sans:
+        'Figtree', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+[dir='rtl'] {
+    --font-sans:
+        'Tajawal', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+    @apply bg-brand-200 text-brand-900;
+}
+
+.dark ::selection {
+    @apply bg-brand-800 text-brand-50;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.gray.300') transparent;
+}
+
+.dark * {
+    scrollbar-color: theme('colors.gray.600') transparent;
+}
